@@ -15,6 +15,6 @@ def Lysi():
         LYSI = AT_number - TT
         LYSI = LYSI * AT
         LYSI = LYSI / AT_number
-        print(LYSI)
+        print("Τελική έκπτοση είναι", LYSI)
     Lysi_logic()
 Lysi()
