@@ -16,6 +16,6 @@ def Lysi():
         LYSI_2 = AT_number / AT
         LYSI = LYSI / LYSI_2
         LYSI = int(LYSI)
-        print(LYSI)
+        print("Τελική πρόσθεση είναι", LYSI)
     Lysi_logic()
 Lysi()
