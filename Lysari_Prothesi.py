@@ -2,7 +2,7 @@
 
 
 #Title here.
-print("Alpha 0.1.4")
+print("Alpha 0.2.0")
 print("---------------------")
 def Lysi():
     #variables for the problem are here.
