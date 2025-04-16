@@ -2,7 +2,7 @@
 
 
 #Title here.
-print("Alpha 0.1.4")
+print("Alpha 0.2.0")
 print("---------------------")
 def Lysi():
     AT = 100
@@ -12,7 +12,7 @@ def Lysi():
     #==================================#
     #This the logic on  how to do said operation.
     def Lysi_logic():
-        LYSI = TT - AT_number
+        LYSI = AT_number - TT
         LYSI_2 = AT_number / AT
         LYSI = LYSI / LYSI_2
         LYSI = int(LYSI)
