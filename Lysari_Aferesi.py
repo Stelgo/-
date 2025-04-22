@@ -13,9 +13,9 @@ def Lysi():
     #==================================#
     #This the logic on  how to do said operation.
     def Lysi_logic():
-        LYSI = AT_number - E
+        LYSI = AT - E
         TT = LYSI
-        TT = TT * AT
+        TT = TT * AT_number
         TT = int(TT / AT)
         print("Τελική τιμή είναι", TT)
     Lysi_logic()
