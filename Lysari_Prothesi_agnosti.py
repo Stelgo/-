@@ -6,9 +6,9 @@ print("Alpha 0.1.4")
 print("---------------------")
 def Lysi():
     AT = 100
-    AT_number = input("Αρχική τιμή: ")
+    AT_number = int(input("Αρχική τιμή: "))
     E = None
-    TT = input("Τελική τιμή: ")
+    TT = int(input("Τελική τιμή: "))
     #==================================#
     #This the logic on  how to do said operation.
     def Lysi_logic():
