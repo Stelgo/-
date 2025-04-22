@@ -6,15 +6,15 @@ print("Alpha 0.1.4")
 print("---------------------")
 def Lysi():
     AT = 100
-    AT_number = int(input("Αρχική τιμή: "))
+    AT_number = input("Αρχική τιμή: ")
     E = None
-    TT = int(input("Τελική τιμή: "))
+    TT = input("Τελική τιμή: ")
     #==================================#
     #This the logic on  how to do said operation.
     def Lysi_logic():
         LYSI = AT_number - TT
         LYSI = LYSI * AT
-        LYSI = LYSI / AT_number
+        LYSI = float(LYSI / AT_number)
         print("Τελική έκπτοση είναι", LYSI)
     Lysi_logic()
 Lysi()
